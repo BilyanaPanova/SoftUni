@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags - Article, Section</title>
+</head>
+<body>
+    <article>
+        <h1>
+            Article title goes here
+        </h1>
+        <section>
+            <h3>
+                Second title
+            </h3>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga accusantium, similique amet tempora, architecto recusandae alias veniam maxime, modi ipsa quos minima quae nesciunt magnam ratione officiis facilis saepe ab.
+            </p>
+            <p>
+                Published on <time datetime="dd.mm.yyyy">13.03.2024</time>at <time datetime="hh:mm">15:00</time>
+                by <strong>David Core</strong>
+            </p>
+        </section>   
+    </article>
+
+</body>
+</html>
