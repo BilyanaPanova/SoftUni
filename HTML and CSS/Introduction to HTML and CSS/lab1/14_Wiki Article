@@ -17,29 +17,41 @@
             <p>
                 Semantic HTML plays a crucial role in web development,providing meaning to the web content beyond the presentation layer.This article explores the core benefits of using semantic elements.
             </p>
+        </section>
+
+        <section>
             <h3>
                 Improved Accessibility
             </h3>
             <p>
-                By using elements like &lt;header&gt;,&lt;nav&gt;,and &lt;header&gt;,developers can create more accessible websites for people using screen readers and other assistive technologies.
+                By using elements like <code>&lt;header&gt;</code>,<code>&lt;nav&gt;</code>,and <code>&lt;header&gt;</code>,developers can create more accessible websites for people using screen readers and other assistive technologies.
             </p>
+        </section>
+
+        <section>
             <h3>
                 SEO Benefits
             </h3>
             <p>
                 Semantic markup improves the SEO of web pages by allowing search engines to better understand the content structure,leading to potentially higher rankings in search results.
             </p>
+        </section>
+
+        <section>
             <h3>
                 Ease of Maintenance
             </h3>
             <p>
                 Using semantic elements makes it easier for developers to read and maintain code,as the structure of the document is clearer and more intuitive.
             </p>
+        </section>
+
+        <section>
             <h4>
                 Did You Know?
             </h4>
             <p>
-                The &lt;article&gt; element can be used independently of the rest of the web page content,making it ideal for blog posts,news articles,and more.
+                The <code>&lt;article&gt;</code> element can be used independently of the rest of the web page content,making it ideal for blog posts,news articles,and more.
             </p>
         </section>
     </article>
