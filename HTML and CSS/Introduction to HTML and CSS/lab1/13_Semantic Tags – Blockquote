@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags - Blockquote</title>
+</head>
+<body>
+    <div>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, earum quis. Est debitis corrupti quaerat facere porro numquam alias consectetur aspernatur sint voluptatem, velit quas delectus eum nisi necessitatibus hic.
+        </p>
+        <blockquote>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam libero maiores optio dicta officia quis sit necessitatibus. Eveniet dolorum, nisi repellat quo minima sit obcaecati qui odio repellendus quae nulla!
+        </blockquote>
+        <blockquote>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam earum voluptatum impedit beatae laboriosam voluptate perspiciatis aliquam commodi recusandae excepturi natus quam, magni ea pariatur officia. Laudantium temporibus exercitationem velit.
+        </blockquote>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur harum consectetur laborum explicabo minima expedita tempora, est accusantium adipisci placeat quo nisi beatae quia natus deserunt ab architecto repellat fuga?
+        </p>
+    </div>
+</body>
+</html>
