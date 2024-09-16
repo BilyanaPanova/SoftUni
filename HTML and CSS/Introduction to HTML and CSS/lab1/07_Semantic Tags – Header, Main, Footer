@@ -22,21 +22,19 @@
     <br>
     <footer>
         <div>
-            <small>Контакти</small>
+            Контакти
             <ul class="socials">
-                <small>
+      
                 <li><a href="https://www.facebook.com/vessi8?_rdc=1&_rdr">facebook</a></li>
-                </small>
-                <small>
+     
                     <li>
                         <a href="#">e-mail</a>
                     </li>
-                </small>
-                <small>
+              
                     <li>
                         <a href="#">instagram</a>
                     </li>
-                </small>
+                
                 
             </ul>
         </div>
