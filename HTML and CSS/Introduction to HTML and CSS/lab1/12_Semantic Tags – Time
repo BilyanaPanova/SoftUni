@@ -17,31 +17,31 @@
             Date Only (YYYY-MM-DD)
         </h4>
         <p>
-            The following is a date: <time datetime="YYYY-MM-DD">January 1, 2023</time>.
+            The following is a date: <time datetime="2023-01-01">January 1, 2023</time>.
         </p>
         <h4>
             Time Only (24-Hour Format)
         </h4>
         <p>
-            The following is a time: <time datetime="24-Hour">13:45 (1:45 PM)</time>.
+            The following is a time: <time datetime="13:45">13:45 (1:45 PM)</time>.
         </p>
         <h4>
             Date and Time Combination
         </h4>
         <p>
-            The following is a date and time: <time datetime="Time Combination">January 1, 2023, at 13:45</time>.
+            The following is a date and time: <time datetime="2023-01-01T13:45">January 1, 2023, at 13:45</time>.
         </p>
         <h4>
             Datetime with Timezone
         </h4>
         <p>
-            The following is a datetime with a timezone: <time datetime="Timezone">January 1, 2023, at 13:45 UTC</time>.
+            The following is a datetime with a timezone: <time datetime="2023-01-01T13:45">January 1, 2023, at 13:45 UTC</time>.
         </p>
         <h4>
             Human-readable Date with Datetime Attribute
         </h4>
         <p>
-            The following is a human-readable date: <time datetime="Date with Datetime Attribute">New Year's Day 2023</time>.
+            The following is a human-readable date: <time datetime="2023-01-01">New Year's Day 2023</time>.
         </p>
     </section>
 
