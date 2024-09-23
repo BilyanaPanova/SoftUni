@@ -1,0 +1,8 @@
+body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 500;
+}
+
+section li {
+    text-decoration: line-through 2px;
+}
