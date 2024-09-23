@@ -1,0 +1,42 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+div p {
+    color: darkolivegreen;
+}
+
+ul > li {
+    font-weight: bold;
+    margin: 7px;
+    margin-left: -5px;
+
+}
+
+article + article {
+    background-color: rgb(247, 115, 67);
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+#special {
+    color:red
+}
+
+li > a {
+    margin-left: -15px;
+}
+
+.last {
+    color:green
+}
+
+h2 ~ p {
+    color:blue
+}
