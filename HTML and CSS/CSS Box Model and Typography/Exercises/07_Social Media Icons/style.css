@@ -1,0 +1,27 @@
+a.circle {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.circle {
+  margin: 10px;
+  border-radius: 50%;
+  background-color: rgb(225, 221, 221);
+  padding: 10px;
+  margin: 10px 5px;
+  width: 15px;
+  height: 15px;
+  line-height: 15px;
+  font-size: 15px;
+  text-align: center;
+}
+
+a.circle:first-of-type {
+  margin-left: 0px;
+}
+
+h2 {
+  margin: 0px;
+  font-size: 1.2em;
+}
