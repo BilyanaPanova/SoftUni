@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Sixtyfour+Convergence&display=swap" rel="stylesheet">
+    
+    <title>Responsive Web Design</title>
+</head>
+<body>
+    <header>
+        <p>The page is being shown on a screen</p>
+    </header>
+    <main>
+        <h1>Media Types</h1>
+        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types" >https://developer.mozilla.org/en-US/docs/Web/CSS/@media#media_types</a>
+    </main>
+    <p>Media types describe the general category of a device. Except when using the not or only logical operators, the media type is optional and the all type is implied.</p>
+    <section>
+        <h3>all</h3>
+        <p>Suitable for all devices</p>
+        <br>
+        <p>@media all {</p>
+        <p class="one-tab">* {</p>
+        <p class="two-tabs">padding: 0;</p>
+        <p class="two-tabs">margin: 0;</p>
+        <p class="two-tabs">box-sizeing:border-box;</p>
+        <p class="one-tab">}</p> 
+        <br>
+        <p class="one-tab">body {</p>
+        <p class="two-tabs">padding: 2em;</p>
+        <p class="two-tabs">font: 14px/1.5 Lato, sans-serif;</p>
+        <p class="one-tab"> }  </p>  
+        <br>
+        <p class="one-tab">p { </p> 
+        <p class="two-tabs"> padding-bottom: 1.5em;</p>
+        <p class="one-tab"> } </p>
+
+        <p>}</p> 
+    </section>
+    <section>
+        <h3>print</h3>
+        <p>Intended for paged material and documents viewed on a screen in print preview mode</p>
+        <br>
+        <p>@media print {</p>
+        <p class="one-tab">      body::before {</p>
+        <p class="two-tabs">   display: block;</p>
+        <p class="two-tabs">    content: 'The page is using a print preview or it was printed';</p>
+        <p class="one-tab">}</p> 
+        <p>}</p> 
+    </section>
+    <section>
+        <h3>screen</h3>
+        <p>Intended primarily for screens</p><br>
+        <p>@media screen {</p>
+        <p class="one-tab">      body::before {</p>
+        <p class="two-tabs">   display: block;</p>
+        <p class="two-tabs">content: 'The page is being shown on a screen';</p>
+        <p class="one-tab">}</p> 
+        <p>}</p> 
+    </section>
+</body>
+</html>
