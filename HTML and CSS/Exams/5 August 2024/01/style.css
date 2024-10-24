@@ -1,0 +1,105 @@
+@import url(https://fonts.googleapis.com/css2?family=Margarine&display=swap);
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Margarine";
+  background-color: #fff0e4;
+}
+
+.container {
+  width: 72%;
+  margin: 40px auto;
+  display: flex;
+  gap: 15px;
+}
+
+.profile, .experience {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.profile {
+  flex: 3;
+  padding: 15px;
+}
+
+.name {
+  margin-left: 5px;
+}
+
+ul {
+  list-style: none;
+  border-bottom: 1px solid #89817b;
+  margin: 20px 0px;
+}
+
+li {
+  margin: 15px 5px;
+}
+
+i {
+  margin-right: 15px;
+  color: #2a91e6;
+}
+
+.first, .second, .third, .fourth {
+  background-color: #2a91e6;
+  color: azure;
+  text-align: center;
+  margin: 15px 0px;
+  border-radius: 30px;
+}
+
+.first {
+  width: 90%;
+}
+
+.second {
+  width: 80%;
+}
+
+.third {
+  width: 75%;
+}
+
+.fourth {
+  width: 50%;
+}
+
+.experience {
+  flex: 7;
+  padding: 30px;
+  
+}
+
+.experience > h2 {
+  text-align: center;
+  margin: 20px 0px 30px 0px;
+}
+
+article > h3 {
+  color: #89817b;
+}
+
+article {
+  margin-bottom: 15px;
+  border-bottom: 1px solid #89817b;
+}
+
+.datetime {
+  color: #2a91e6;
+  margin: 10px 0px;
+}
+
+article > p {
+  margin-bottom: 15px;
+}
+
+article:last-child {
+  border: none;
+}
