@@ -1,0 +1,15 @@
+function sameNumbers(number) {
+    const strNumber = String(number)
+    let sum = 0 
+    let isTrue = true
+
+    for (let i = 0; i < strNumber.length; i++) {
+        if (strNumber[i] !== strNumber[0]) {
+            isTrue = false
+        }
+        sum += Number(strNumber[i])
+    }
+
+    console.log(isTrue + `\n` + sum)
+    
+}
