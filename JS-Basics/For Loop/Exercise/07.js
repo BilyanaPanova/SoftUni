@@ -1,8 +1,7 @@
 function calculateClimberPercentages(input) {
-    const groupCount = parseInt(input[0]); // Брой групи
-    const groups = input.slice(1).map(Number); // Преобразуване на броя на хората във всяка група към числа
+    const groupCount = parseInt(input[0]); 
+    const groups = input.slice(1).map(Number); 
 
-    // Променливи за броя катерачи на всеки връх
     let musala = 0;
     let montBlanc = 0;
     let kilimanjaro = 0;
