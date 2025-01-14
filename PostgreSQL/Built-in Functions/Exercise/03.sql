@@ -1,0 +1,3 @@
+ALTER TABLE countries
+ADD COLUMN 
+	capital_code CHAR(2) GENERATED ALWAYS AS (SUBSTRING(capital,1,2)) STORED;
