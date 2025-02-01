@@ -14,3 +14,21 @@ BEGIN
     END IF;
 END;
 $$ LANGUAGE plpgsql;
+
+--OR
+
+CREATE OR REPLACE FUNCTION fn_full_name(IN first_name VARCHAR, IN last_name VARCHAR,
+										OUT full_name VARCHAR)
+AS $$
+BEGIN 
+    IF first_name IS NOT NULL AND last_name IS NOT NULL THEN
+        full_name := CONCAT(INITCAP(first_name), ' ', INITCAP(last_name));
+    ELSIF first_name IS NOT NULL THEN
+        full_name := INITCAP(first_name);
+    ELSIF last_name IS NOT NULL THEN
+        full_name := INITCAP(last_name);
+    ELSE 
+        full_name := NULL;
+    END IF;
+END;
+$$ LANGUAGE plpgsql;
