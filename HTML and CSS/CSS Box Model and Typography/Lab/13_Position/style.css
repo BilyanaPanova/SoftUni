@@ -1,0 +1,26 @@
+section {
+  border: 2px solid #000;
+  padding: 2em;
+  position: relative
+}
+
+div {
+  border: 1px solid #333;
+  padding: 0.5em;
+  width: 5em;
+  height: 5em;
+}
+
+#relative > div.item:nth-child(2){
+  Position: relative;
+  Left: 5em;
+  Top: 2em;
+  Background:lightgreen
+}
+
+#ra > div.item:nth-child(2) {
+  Position: absolute;
+  Left : 4em;
+  Top:4em;
+  Background: lightgreen;
+}

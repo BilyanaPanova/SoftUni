@@ -1,0 +1,32 @@
+.container {
+  box-sizing: border-box;
+  display: flexbox;
+  width: 40%;
+  margin: 50px auto;
+}
+
+.container div {
+  border: 1px dashed black ;
+  margin: 30px 40px 40px 40px;
+}
+
+.margin {
+  background-color: rgb(250, 164, 114);
+  text-indent: 15px;
+}
+
+.border {
+  background-color: rgb(249, 237, 189);
+}
+
+.padding {
+  background-color: rgb(122, 230, 140);
+}
+
+.content {
+  background-color: skyblue;
+}
+
+p {
+  text-align: center;
+}

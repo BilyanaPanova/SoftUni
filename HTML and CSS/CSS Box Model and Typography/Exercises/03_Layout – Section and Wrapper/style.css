@@ -1,0 +1,23 @@
+div#border {
+  border: 2px solid green;
+}
+
+body {
+  margin: 0px;
+}
+
+div:not([id]) {
+  border: 2px solid blue;
+  margin: 30px 160px 30px 160px;
+  padding: 30px;
+}
+
+section {
+  border:2px solid black;
+  margin: 30px 30px;
+}
+
+p {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}

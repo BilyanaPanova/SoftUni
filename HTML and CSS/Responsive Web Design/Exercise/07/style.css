@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(227, 227, 227);
+  font-family: Lato,sans-serif;
+}
+
+.container {
+  background-color: white;
+  width: 56vw;
+  margin: 80px auto;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  gap: 30px;
+}
+
+.right {
+    flex: 3;
+    object-fit: fill;
+    background-color:rgb(227, 227, 227) ;
+}
+
+article {
+  flex: 7;
+}
+
+h2 {
+  color: grey;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 500;
+  margin: 10px 0px;
+}
+
+p {
+  color: grey;
+  
+}
+
+.buttons {
+  margin-top:40px;
+  margin-bottom: 20px;
+
+}
+
+a {
+  text-decoration: none;
+  color: grey;
+  padding: 15px 20px;
+  border-radius: 5px;
+  margin-right: 20px;
+  background-color:rgb(227, 227, 227)  ;
+}
+.purple {
+  background-color: blueviolet;
+  color: white;
+ 
+
+}
+
+@media screen and (max-width:800px) {
+  .container {
+    width: 95vw;
+    margin: 80px 20px 80px 20px;
+  }
+
+}

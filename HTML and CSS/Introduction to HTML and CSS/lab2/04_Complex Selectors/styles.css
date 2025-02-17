@@ -1,0 +1,44 @@
+nav a {
+    text-decoration: none;
+    color:blue
+}
+
+nav ul li:first-child a {
+    font-weight: bold;
+}
+
+nav ul li:last-child a {
+    font-style: italic;
+}
+
+
+h1::before {
+    content: ">> ";
+    font-weight: 800;
+    color:brown;
+}
+
+h1::after {
+    content: " <<";
+    color: brown;
+    font-weight: 800;
+}
+
+.colored p {
+    background-color: rgb(139, 226, 246) ;
+}
+
+div * {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    /* font-weight: bold; */
+}
+
+div p {
+    font-size: large;
+}
+
+img[alt="some flower"] {
+    border-color: red;
+    border-width:10px;
+    border-style: solid;
+}
