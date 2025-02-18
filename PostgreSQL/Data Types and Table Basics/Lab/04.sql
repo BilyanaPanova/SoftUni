@@ -1,0 +1,5 @@
+ALTER TABLE employees
+ALTER salary SET NOT NULL,
+ALTER salary SET DEFAULT 0,
+ALTER hiring_DATE SET NOT NULL
+;

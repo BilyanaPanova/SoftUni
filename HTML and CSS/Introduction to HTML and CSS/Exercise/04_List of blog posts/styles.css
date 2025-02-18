@@ -1,0 +1,15 @@
+time {
+    font-style: italic;
+}
+
+span {
+    font-weight: bold;
+}
+
+h1 + p {
+    color: grey;
+}
+
+abbr {
+    text-decoration: none;
+}

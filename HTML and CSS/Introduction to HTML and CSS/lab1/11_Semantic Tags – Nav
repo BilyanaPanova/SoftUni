@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic Tags - Nav</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li>
+                <a href="https://aussiesmile.weebly.com/uploads/1/0/8/5/108537889/adi-smal_orig.jpg" target="_blank">Aussie Smile Adorable Princess </a>
+            </li>
+            <li>
+                <a href="https://aussiesmile.weebly.com/uploads/1/0/8/5/108537889/caramel-small_orig.jpg" target="_blank">Aussie Smile Creme Caramel</a>
+            </li>
+            <li>
+                <a href="https://aussiesmile.weebly.com/uploads/1/0/8/5/108537889/kuki-small_orig.jpg" target="_blank">Aussie Smile Coockie</a>
+            </li>
+            <li>
+                <a href="https://aussiesmile.weebly.com/uploads/1/0/8/5/108537889/tochi-smal_orig.jpg" target="_blank">Champion Aussie Smile Elf Miriel</a>
+            </li>
+            <li>
+                <a href="https://aussiesmile.weebly.com/uploads/1/0/8/5/108537889/azur8_orig.jpg" target="_blank">Aussie Smile Golden Star</a>
+            </li>
+            <li>
+                <a href="https://aussiesmile.weebly.com/uploads/1/0/8/5/108537889/lindor8_orig.jpg" target="_blank">Aussie Smile Happy Lindor</a>
+            </li>
+            <li>
+                <a href="https://scontent.fsof10-1.fna.fbcdn.net/v/t39.30808-6/457505593_10228806960613723_5486710078451274567_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=127cfc&_nc_ohc=Cd4vxnAtGZIQ7kNvgFnJj5E&_nc_ht=scontent.fsof10-1.fna&oh=00_AYDQxuVANRADMocJa5ig7fXYUUJmzwXzzi40ox8WJtXOTQ&oe=66EBB818" target="_blank">Aussie Smile Karizma</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>

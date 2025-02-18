@@ -1,0 +1,30 @@
+.first {
+  border: 2px solid green;
+  height: 30em;
+}
+
+.second {
+  border: 2px solid  blue;
+  margin: 30px auto;
+  height: 25.5em;
+  width: 90em;
+
+}
+
+header,main,footer {
+  border: 2px solid black;
+  margin: 30px;
+  height: 5.8em;
+
+}
+
+p {
+  text-align: center;
+  font-weight: bold;
+  font-family: Verdana;
+  padding: 30px;
+}
+
+body {
+  margin: 0px;
+}

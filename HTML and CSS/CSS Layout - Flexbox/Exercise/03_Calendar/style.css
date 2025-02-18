@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(230, 226, 226);
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  width: 80%;
+  margin: 70px 10px;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.calendar {
+  border-radius: 5px;
+  border: 1px solid grey;
+  margin: 5px;
+  display: flex;
+  flex-direction: row;
+}
+
+header, article, aside {
+  border: 2px solid rgb(175, 175, 175);
+  padding: 50px;
+  text-align: center;
+}
+
+section {
+  display: flex;
+}
+
+article {
+  flex-grow: 3;
+}
+.main {
+  flex-grow: 9;
+}
+
+aside {
+  flex-grow: 1;
+}

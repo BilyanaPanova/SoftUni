@@ -1,0 +1,20 @@
+div p {
+    color: blue;
+}
+
+ul > li {
+    font-style:unset;
+
+}
+
+p + p {
+    background-color: silver;
+}
+
+span {
+    color: red;
+}
+
+div > span {
+    font-weight: bold;
+}

@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css2?family=Playwrite+PE:wght@100..400&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+body {
+    font-family: "Playwrite PE";
+}
+
+button {
+    font-family: "Roboto";
+}
+
+.topBar, .contact {
+    text-align: center;
+    font-family: "Roboto";
+}
+
+.topBar ul {
+    list-style: none;;
+    display: inline-flex;
+    padding: 20px;
+    margin: 40px 0px;
+}
+
+.topBar ul li a{
+    margin: 15px;
+    color: #364b87;
+    font-weight: 500;
+}
+
+.topBar ul li:first-child a {
+    color: red;
+}
+
+.contact, div h1 {
+    color: #364b87;
+}
+
+.contact button {
+    padding: 10px 30px;
+    border: 2px solid red;
+    border-radius: 5px;
+    color: #364b87;
+}
+
+.mainHead {
+    display: flex;
+    width: 90%;
+    margin: 40px auto;
+}
+
+.headtext {
+    width: 50%;
+    
+}
+
+.headtext h1{
+    font-size: 70px;
+    left: 80px;
+}
+
+img {
+    width: 75%;
+    height: 500px;
+}
+
+.headtext p {
+    width: 70%;
+    margin: 20px 0px;
+}
+
+.headtext button {
+    padding: 10px 30px;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.red {
+    background-color: red;
+    margin-right: 15px;
+}
+
+.red a {
+    color: white;
+}
+
+.white {
+    background-color: white;
+}
+
+.white a {
+    color: #364b87;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.main section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.design, .development{
+    width: 25%;
+    height: auto;
+    margin: auto;
+}
+
+img[alt="bubble"] {
+    width: 20%;
+    height: auto;
+    position: relative;
+    right: 115px;
+    bottom: 110px;
+}
+
+section h2 {
+    margin: 20px auto;
+    color: #364b87;
+    width: 400px;
+    font-size: 2.8rem;
+
+}
+
+section p {
+    font-size: 1.2rem;
+}
+
+
+.secondMainSection {
+    height: 50rem;
+}
+
+.secondBubble {
+    position: relative;
+    left: 84%;
+    top: -8rem;
+}
+
+.development {
+    margin-top: 20px;
+}
+
+.firstMainSection {
+    height: 40rem;
+}
+
+main img {
+    width: 30%;
+    height: auto;
+    margin: 20px;
+
+}
+
+main {
+    text-align: center;
+}
+
+h4 {
+    color:red;
+    margin:20px
+}
+
+main h2 {
+    color: #364b87;
+    width: 20%;
+    margin: auto;
+    font-size: 2.5em;
+}
+
+main p {
+    width: 45%;
+    margin: auto;
+    font-size: 1.2em;
+}
+
+.secondArticle {
+    margin-top: 70px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 70%;
+    margin: 20px auto
+}
+
+input,textarea {
+    background-color: #364b87;
+    border-radius: 20px;
+    padding: 15px;
+    color: white;
+    font-family: "Playwrite PE";
+}
+
+textarea {
+    margin: 15px 0px;
+
+}
+
+footer {
+    background-color: #364b87;
+    text-align: center;
+    color: white;
+}
+
+ footer li a {
+    color: white;
+    font-family: "Roboto";
+    font-weight: 500;
+}
+
+footer li {
+    display: inline;
+    padding: 20px;
+}
+
+footer ul {
+    padding: 40px;
+}
+
+footer p {
+    font-size: 0.8em;
+    padding-bottom: 40px;
+}

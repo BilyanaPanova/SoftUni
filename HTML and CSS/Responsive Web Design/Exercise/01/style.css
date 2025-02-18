@@ -1,0 +1,53 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.container {
+  margin: 30px auto;
+  padding: 30px;
+  border-radius: 5px;
+  display: flex;
+  width: 70%;
+  gap: 10px;
+  flex-wrap: wrap;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;;
+}
+
+.container div {
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 30px;
+  
+}
+
+.header, .footer {
+  flex: 1 1 100%;
+}
+
+.main {
+  flex: 7;
+}
+
+.sidebar {
+  flex: 3;
+}
+
+@media screen and (max-width:800px) {
+
+  .container {
+    width: 90vw;
+    margin-top: 70px;
+  }
+  .main , .sidebar {
+    flex: 1 1 100%;
+  }
+  
+}

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  background-color: #eeeeee;
+}
+
+form {
+  border-radius: 3px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin: 60px auto;
+  width: 40%;
+  padding: 30px;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+fieldset {
+  padding: 15px;
+  border-radius: 5px;
+  color: gray;
+  display: flex;
+  flex-direction: column;
+}
+
+legend {
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+  font-weight: 600;
+}
+
+label {
+  font-weight: 700;
+  margin: 20px 20px 0px 20px ;
+  color: black;
+}
+
+input {
+  border: none;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-bottom: 2px solid silver;
+}
+
+p {
+  margin-bottom: 40px;
+  font-style: italic;
+  font-size: 0.8rem;
+  color: grey;
+  margin-left: 20px;
+}
+
+input[type="submit"] {
+  background-color: #ececeb;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 40px;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.bDate > label {
+  margin-bottom: 10px;
+}
+
+@media (max-width:800px) {
+  form {
+    width: 70%;
+  }
+}
+
+@media (max-width:600px) {
+  form {
+    width: 85%;
+  }
+}

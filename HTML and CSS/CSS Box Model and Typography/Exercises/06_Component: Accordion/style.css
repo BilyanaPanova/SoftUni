@@ -1,0 +1,28 @@
+details {
+  border: 1px solid grey;
+  padding: 15px;
+}
+
+section {
+  margin: 20px 250px;
+}
+
+summary::marker {
+  content: ">  ";
+  font-weight: bold;
+
+}
+
+
+summary {
+  font-weight: bold;
+}
+
+details[open] summary::marker {
+  content: "V  ";
+  font-size: small;
+}
+
+html {
+  font-family:"Lato",sans-serif
+}

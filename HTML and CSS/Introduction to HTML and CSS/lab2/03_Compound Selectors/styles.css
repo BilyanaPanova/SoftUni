@@ -1,0 +1,40 @@
+/* Styling for highlighted paragraphs */
+.highlight {
+    color: blue;
+    font-size: 1.2em;
+}
+
+#special-content {
+    background-color: orange;
+    padding: 2px;
+    font-weight: bold;
+}
+
+/* Styling for important list items */
+ul li.important {
+    color: teal;
+}
+ul li.important_italic {
+    color: red;
+    font-style: italic;
+}
+
+ul li {
+    font-size: 1em;
+}
+
+.fancy-link{
+    color: darkblue;
+}
+
+.diff-fancy-link {
+    color: orange;
+    font-weight: bold;
+    border-bottom: 1px solid orange;
+}
+
+.highlight.important {
+    color: darkblue;
+    font-weight: bold;
+    text-decoration: underline;
+}
